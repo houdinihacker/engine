@@ -350,7 +350,7 @@ deps = {
    Var('dart_git') + '/csslib.git@5836863a4e73da8fb88b9a65901eb653339b1196',
 
   'src/third_party/dart/third_party/pkg/dart_style':
-   Var('dart_git') + '/dart_style.git@3470ab8451567dad237ddd54f992bfed066a2707',
+   Var('dart_git') + '/dart_style.git@33efb2560c62b7b7bf330009cd757495b0e1456a',
 
   'src/third_party/dart/third_party/pkg/dartdoc':
    Var('dart_git') + '/dartdoc.git@d01ddc58600c0d2edbbd953d2074996c36604cfc',
