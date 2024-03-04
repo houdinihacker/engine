@@ -63,7 +63,7 @@ vars = {
   'dart_perfetto_rev': 'b8da07095979310818f0efde2ef3c69ea70d62c5',
   'dart_protobuf_gn_rev': 'f872f05cb0378eef9a7a2609076929f0f35b4141',
   'dart_protobuf_rev': 'b90a4c44d56075eb23ee38ae56ce0febfd7f280f',
-  'dart_pub_rev': '3e2c92a8bb74935302de52b80b870bf66963756d',
+  'dart_pub_rev': 'fe6acca8f5a6e48b7da862038e60db68d26e01b2',
   'dart_root_certificates_rev': '692f6d6488af68e0121317a9c2c9eb393eb0ee50',
   'dart_watcher_rev': '00aa79b0ff5562c9dafb0525891e2e69c51be06d',
   'dart_webdev_rev': 'e887316c2352524baaf3b2e5aadd15ba0773edf6',
@@ -314,7 +314,7 @@ deps = {
    Var('chromium_git') + '/external/github.com/WebAssembly/binaryen.git@b9b5f162ca8bf5b899ff0f0351491d7d403d7ed9',
 
   'src/third_party/dart/third_party/devtools':
-   {'packages': [{'version': 'git_revision:026f0adf03725fbab24d601ac74c811808f258e5', 'package': 'dart/third_party/flutter/devtools'}], 'dep_type': 'cipd'},
+   {'packages': [{'package': 'dart/third_party/flutter/devtools', 'version': 'git_revision:026f0adf03725fbab24d601ac74c811808f258e5'}], 'dep_type': 'cipd'},
 
   'src/third_party/dart/third_party/pkg/args':
    Var('dart_git') + '/args.git@5ac2ba1d93f037c7aee2975703bf071f88597a76',
@@ -350,10 +350,10 @@ deps = {
    Var('dart_git') + '/csslib.git@5836863a4e73da8fb88b9a65901eb653339b1196',
 
   'src/third_party/dart/third_party/pkg/dart_style':
-   Var('dart_git') + '/dart_style.git@33efb2560c62b7b7bf330009cd757495b0e1456a',
+   Var('dart_git') + '/dart_style.git@3470ab8451567dad237ddd54f992bfed066a2707',
 
   'src/third_party/dart/third_party/pkg/dartdoc':
-   Var('dart_git') + '/dartdoc.git@1a7952b13858ed307185a28f9b4ea861c0abb1c5',
+   Var('dart_git') + '/dartdoc.git@d01ddc58600c0d2edbbd953d2074996c36604cfc',
 
   'src/third_party/dart/third_party/pkg/ffi':
    Var('dart_git') + '/ffi.git@04fa38ab45cb2957f9059e03031b53906c2c4385',
@@ -386,7 +386,7 @@ deps = {
    Var('dart_git') + '/json_rpc_2.git@5da270592006e4d43fd5a6ac736829f955881240',
 
   'src/third_party/dart/third_party/pkg/linter':
-   Var('dart_git') + '/linter.git@c0942721fcc1feeff278f95626cb5d27a654301e',
+   Var('dart_git') + '/linter.git@d5be2184a769999cdeb48769f898eaa9da4b494b',
 
   'src/third_party/dart/third_party/pkg/logging':
    Var('dart_git') + '/logging.git@787030a2b3d0d5d53ce57f1c7dc74f27ecb07b0b',
@@ -455,7 +455,7 @@ deps = {
    Var('dart_git') + '/test_reflective_loader.git@a85a930ad3736f93b96f6cc104d3576c1ae19e0e',
 
   'src/third_party/dart/third_party/pkg/tools':
-   Var('dart_git') + '/tools.git@0304fbbb42989abd9ab6bbdfad26d830c96a7574',
+   Var('dart_git') + '/tools.git@545d7e1c73ce21b8c91f638021f9d487d324a501',
 
   'src/third_party/dart/third_party/pkg/typed_data':
    Var('dart_git') + '/typed_data.git@d85363d2efb333afce07ec409a529ec32986e1a2',
@@ -482,7 +482,7 @@ deps = {
    Var('dart_git') + '/yaml_edit.git' + '@' + Var('dart_yaml_edit_rev'),
 
   'src/third_party/dart/tools/sdks':
-   {'packages': [{'version': 'version:3.0.0-369.0.dev', 'package': 'dart/dart-sdk/${{platform}}'}], 'dep_type': 'cipd'},
+   {'packages': [{'package': 'dart/dart-sdk/${{platform}}', 'version': 'version:3.0.0-369.0.dev'}], 'dep_type': 'cipd'},
 
   # WARNING: end of dart dependencies list that is cleaned up automatically - see create_updated_flutter_deps.py.
 
